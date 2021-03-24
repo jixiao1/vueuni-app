@@ -1,0 +1,2 @@
+<view class="linkmy"><view class="imgs"><image src="http://www.itcast.cn/2018czydz/images/gywmban.jpg"></image></view><view class="contentList"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" class="phone" bindtap="__e">联系电话：15870975022( 点击拨打 )</view><view class="address phone">居住地址：深圳市宝安区西
+		乡街道黄田文楼路东七巷八号海雅居</view></view><map class="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>

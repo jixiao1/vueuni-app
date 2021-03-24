@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "京东商城"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "京东商城"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "京东商城"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "京东商城"
+			}
+		},
+		{
+			"path":"pages/shop/shop",
+			"style":{
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/linkmy/linkmy",
+			"style":{
+				"navigationBarTitleText":"联系我们"
+			}
+		},
+		{
+			"path":"pages/qushe/qushe",
+			"style":{
+				"navigationBarTitleText":"社区图片"
+			}
+		},
+		{
+			"path":"pages/learn/learn",
+			"style":{
+				"navigationBarTitleText":"学习视频"
+			}
+		},
+		{
+			"path":"pages/news-detail/news-detail",
+			"style":{
+				"navigationBarTitleText":"咨询详情"
+			}
+		},
+		{
+			"path":"pages/goods_detail/goods_detail",
+			"style":{
+				"navigationBarTitleText":"商品详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#DD524D",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#DD524D",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"咨询",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/news-active.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"购物车",
+				"iconPath":"static/icon/cart.png",
+				"selectedIconPath":"static/icon/cart-active.png"
+			},
+			{
+				"pagePath":"pages/member/member",
+				"text":"会员",
+				"iconPath":"static/icon/member.png",
+				"selectedIconPath":"static/icon/member-active.png"
+			}
+		]
+	}
+}
